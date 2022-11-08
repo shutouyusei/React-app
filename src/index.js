@@ -1,21 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
-import { Article, Content, Counter } from './component/index';
+import '../src/css/app.css';
+import Header from './component/app';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <Article
-      title={'こんにちは'}
-      article={'💩'}
-    />
-    <Content
-      title='baka'
-      article='aho'
-    ></Content>
-    <Counter></Counter>
+    <Header />
   </React.StrictMode>
 );
 
