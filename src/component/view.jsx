@@ -1,11 +1,10 @@
-import Input from './input';
-const Index = () => {
+const Index = (props) => {
     return (
         <div>
-            <Input />
+            <p>qqq</p>
+            <p>{props.Text}</p>
         </div>
     )
 };
-
 
 export default Index;
