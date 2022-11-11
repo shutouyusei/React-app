@@ -1,6 +1,6 @@
 const Index = (props) => {
     return (
-        <p>{props.Text}</p>
+        <li className="todolist">{props.Text} <input type='button'></input></li>
     )
 };
 

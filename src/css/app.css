@@ -1,4 +1,30 @@
-.header {
-    font-size: 30px;
-    text-align: center;
+.view {
+    background-color: azure;
 }
+
+
+.App {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.todolist {
+    height: 64px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px #000;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    overflow-y: auto;
+}
+
+.index {}
