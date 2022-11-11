@@ -9,13 +9,16 @@ const Header = () => {
         setTodo([...todo, text]);
         setText('');
     }
+    const view = todo.map((text) =>
+        <tr>{text}</tr>
+    )
     return (
         <div>
             <h1>TO Do App</h1>
 
             <input type='text' value={text} onChange={(event) => setText(event.target.value)}></input>
             <input type='button' onClick={to}></input>
-            <Index Text={todo} />
+            < Index Text={view} />
         </div>
     )
 }
