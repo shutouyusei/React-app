@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Block, Ball } from "./index";
+import { Block } from "./index";
 
 const game = (props) => {
     const [bool, setBool] = useState(true);
@@ -9,7 +9,7 @@ const game = (props) => {
             </div>
             <div className="field">
                 <div className="gameexit_button" onClick={() => setBool(prevstate => !prevstate)}>X</div>
-                {/* game画面*/}<div><Block text={props.Text} /><Ball /></div>
+                {/* game画面*/}<div><Block text={props.Text} /></div>
             </div>
         </>);
     } else {
