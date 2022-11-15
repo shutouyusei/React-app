@@ -7,7 +7,7 @@ const block = (props) => {
     }
     return (<>
         <div className="game_field">{item}</div>
-        <div><Ball /></div>
+        <div style={{ height: '100%', backgroundColor: 'red' }}><Ball /></div>
     </>)
 }
 
